@@ -10,6 +10,6 @@ sudo ./nvm.sh
 
 echo "you are required to change your shell to zsh manually"
 
-echo "chsh /usr/bin/zsh"
+echo "chsh -s /usr/bin/zsh"
 
 bat README.md
