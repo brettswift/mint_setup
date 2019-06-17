@@ -8,6 +8,9 @@ sudo ./awscli.sh
 sudo ./bat.sh
 sudo ./nvm.sh
 sudo ./npm_install_apps.sh
+sudo ./awscli.sh
+sudo ./docker.sh
+sudo ./neovim.sh
 
 echo "you are required to change your shell to zsh manually"
 
