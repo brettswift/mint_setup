@@ -25,6 +25,9 @@ sudo apt-get update
 echo "install docker"
 sudo apt-get install -y docker-ce docker-ce-cli containerd.io
 
-echo "Verify it works.. hello.. world?"
+echo "set docker permissions"
+sudo groupadd docker
+sudo usermod -aG docker $USER
 
+echo "Verify it works.. hello.. world?"
 sudo docker run hello-world
